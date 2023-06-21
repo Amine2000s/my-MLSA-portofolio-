@@ -37,29 +37,30 @@ const projectList = [
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Competitive programming Solution repository",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "a github reporistory thaat contains my peronell solution of coding problems from Codeforces,Hackerrank,leetcode.</H>",
+    url: "https://github.com/Amine2000s/Problem-Solving-",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/Amine2000s/my-MLSA-portofolio-",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Hand Sign recognition Model With  Python",
+    description: "an AI Model that transalte Hand Sign to real letters ",
+    url: "https://github.com/Amine2000s/Hand_sign_recogntion_mini_project",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 className="about" style={{ textAlign: "center" }}>
+        Portfolio
+      </h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
